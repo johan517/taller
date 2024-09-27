@@ -14,6 +14,6 @@ use App\Http\Controllers\MascotaController;
 |
 */
 
-Route::get('/', [MascotaController::class,'index'])->name('mascotas.index');
+Route::get('mascoras',[MascotaController::class,'index'])->name( 'mascotas.index');
 
-Route::get('mascotas', [MascotaController::class]);
+
